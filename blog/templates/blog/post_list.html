@@ -21,15 +21,15 @@
         <h2><a href="">My second post</a></h2>
         <p>lisdfvo sifbvs oeifnboi fnvaof nvaoijrn</p>
     </div> -->
-    {{posts}}
-    <!-- {% for post in posts%}
+    <!-- {{posts}} -->
+    {% for post in posts%}
         <div>
             <p>published: {{ post.published_date }}</p>
             <h2><a href=""{{ post.title }}></a></h2>
             <p>{{ post.text|linebreaksbr }}</p>
         </div>
         {{post}}
-    {% endfor %} -->
+    {% endfor %}
 
 </body>
 
